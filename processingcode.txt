@@ -1,0 +1,12 @@
+ I=imread('');
+I=rgb2gray(I);
+facedetector=vision.CascadeObjectDetector;
+bboxes=step(facedetector,I);
+Ifaces=insertObjectAnnotation(I,'rectangle',bboxes,'Face');
+imshow(Ifaces);
+subImage=imcrop(I,bboxes);
+imshow(subImage);
+A=imresize(subImage,[30,30]);
+B=A(:,:,3);
+filename = 'testdata.xlsx';
+xlswrite(filename,B,1,'A1:AD30');
