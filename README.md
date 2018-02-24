@@ -1,6 +1,7 @@
 # Gender-Recognition-Technique-using-PCA-and-GA
 Gender recognition using Principal Component Analysis and Genetic Algorithm
-Coded using Python
+Coded using Python.
+
 Python Code Files:preprocessor.py(For preprocessing),pcapart-1.py,pcapart-2.py(Implementation of Principal Component Analysis),genetic.py(Implementation of genetic algorithm)
 MATLAB Code Files:preprocessormatlabcode.m ,ProcessingTogetImageData.m ( To get image data using MATLAB tool)
 Final Report:FinalTermReport_SahilAjmera.pdf
