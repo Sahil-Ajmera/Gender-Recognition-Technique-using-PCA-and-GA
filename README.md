@@ -8,3 +8,5 @@ MATLAB Code Files:preprocessormatlabcode.m ,ProcessingTogetImageData.m ( To get 
 Final Report:FinalTermReport_SahilAjmera.pdf
 
 Improves the traditional gender recognition technique by use of PCA and GA. Preprocessing of images using MATLAB tool. Feature vectors created using Principal Component Analysis. Important features extracted using genetic algorithm . WEKA toolm used for final training and testing
+
+Final Report : FinalTermReport_SahilAjmera.pdf
